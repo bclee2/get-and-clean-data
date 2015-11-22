@@ -46,7 +46,7 @@ std(): Standard deviation
 
 Units of measurements: (I looked everywhere for information on units but had no luck.  There is some sort of 
 normalization being done.  It sounds like rebasing the numbers, but again it isn't very clear.  See below)
-Features are normalized and bounded within [-1,1]
+Features are normalized and bounded within [-1,1].  The values in each of the 79 fields is the mean of the means/standard deviations of all observations for a given subject and activity combination.
 
 Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
 
