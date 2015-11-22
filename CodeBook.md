@@ -44,6 +44,10 @@ to the 79 variables:
 mean(): Mean value
 std(): Standard deviation
 
+Units of measurements: (I looked everywhere for information on units but had no luck.  There is some sort of 
+normalization being done.  It sounds like rebasing the numbers, but again it isn't very clear.  See below)
+Features are normalized and bounded within [-1,1]
+
 Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
 
 gravityMean
